@@ -129,6 +129,9 @@ h2 {
 /* END BODY */
 
 
+/* START QUOTE SECTION */
+
+
 .second-section {
     background-color: #e5e7eb;
     
@@ -156,7 +159,33 @@ h2 {
 }
 
 
+/* END QUOTE SECTION */
+
+/* SIGN UP SECTION */
+
+.third-section {
+    padding: 90px 0;
+}
+
+.third-section-container {
+    max-width: 700px;
+    height: 120px;
+    background-color: #3882f6;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+/* SIGN UP SECTION */
+
+
 /* START FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px 0;
+}
 
 /* END FOOTER */
 
