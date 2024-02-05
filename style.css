@@ -95,9 +95,9 @@ h2 {
 .flowers-container {
     display: flex;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 750px;
     justify-content: space-evenly;
-    gap: 0 8px;
+    gap: 0 20px;
     margin-bottom: 35px;
 }
 
@@ -106,13 +106,15 @@ h2 {
     flex-flow: column;
     align-items: center;
     height: auto;
-    width: 150px;
+    width: 120px;
     gap: 8px 0;
     flex: 1 1 0;
 }
 
 .flower p {
    text-align: center;
+   font-size: 12px;
+   max-width: 120px;
 }
 
 .flower img {
@@ -126,6 +128,32 @@ h2 {
 
 /* END BODY */
 
+
+.second-section {
+    background-color: #e5e7eb;
+    
+}
+
+.second-section-container {
+    max-width: 575px;
+    margin: 0 auto;
+    padding: 75px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author em {
+    font-weight: 900;
+    font-style: normal;
+}
 
 
 /* START FOOTER */
